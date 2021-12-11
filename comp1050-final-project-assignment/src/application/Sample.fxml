@@ -28,48 +28,48 @@
       </Text>
       <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../NFT.gif" />
+            <Image url="@/image/NFT.gif" />
          </image></ImageView>
       <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="525.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../SmokingSkull.gif" />
+            <Image url="@/image/SmokingSkull.gif" />
          </image></ImageView>
       <ImageView fx:id="drakeL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Drake.gif" />
+            <Image url="@/image/Drake.gif" />
          </image></ImageView>
       <ImageView fx:id="walterL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../WalterWhite.gif" />
+            <Image url="@/image/WalterWhite.gif" />
          </image>
       </ImageView>
       <ImageView fx:id="emojiL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Emoji.gif" />
+            <Image url="@/image/Emoji.gif" />
          </image>
       </ImageView>
       <ImageView fx:id="drakeR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Drake.gif" />
+            <Image url="@/image/Drake.gif" />
          </image></ImageView>
       <ImageView fx:id="walterR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../WalterWhite.gif" />
+            <Image url="@/image/WalterWhite.gif" />
          </image>
       </ImageView>
       <ImageView fx:id="emojiR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Emoji.gif" />
+            <Image url="@/image/Emoji.gif" />
          </image>
       </ImageView>
       <ImageView fx:id="sigma" fitHeight="300.0" fitWidth="300.0" layoutX="200.0" layoutY="100.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../GigaChad.gif" />
+            <Image url="@/image/GigaChad.gif" />
          </image>
       </ImageView>
       <ImageView fx:id="thanos" fitHeight="300.0" fitWidth="300.0" layoutX="200.0" layoutY="100.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Thanos.gif" />
+            <Image url="@/image/Thanos.gif" />
          </image></ImageView>
       <FlowPane layoutX="200.0" layoutY="99.0" prefHeight="300.0" prefWidth="300.0">
          <children>
