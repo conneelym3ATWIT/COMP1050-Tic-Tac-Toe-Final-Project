@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Text fx:id="winnertext" layoutX="186.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic-Tac-Toe" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="63.0" />
+         </font>
+      </Text>
+      <Button layoutX="574.0" layoutY="272.0" mnemonicParsing="false" onAction="#restartGame" text="Restart" />
+      <Text fill="WHITE" layoutX="25.0" layoutY="74.0" stroke="BLACK" strokeType="OUTSIDE" text="Player X" textAlignment="CENTER" wrappingWidth="150.0">
+         <font>
+            <Font name="Impact" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="526.0" layoutY="73.0" stroke="BLACK" strokeType="OUTSIDE" text="Player O" textAlignment="CENTER" wrappingWidth="148.0">
+         <font>
+            <Font name="Impact" size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../NFT.gif" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="525.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../SmokingSkull.gif" />
+         </image></ImageView>
+      <ImageView fx:id="drakeL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Drake.gif" />
+         </image></ImageView>
+      <ImageView fx:id="walterL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../WalterWhite.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="emojiL" fitHeight="150.0" fitWidth="150.0" layoutX="25.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Emoji.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drakeR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Drake.gif" />
+         </image></ImageView>
+      <ImageView fx:id="walterR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../WalterWhite.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="emojiR" fitHeight="150.0" fitWidth="150.0" layoutX="526.0" layoutY="324.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Emoji.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sigma" fitHeight="300.0" fitWidth="300.0" layoutX="200.0" layoutY="100.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../GigaChad.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="thanos" fitHeight="300.0" fitWidth="300.0" layoutX="200.0" layoutY="100.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Thanos.gif" />
+         </image></ImageView>
+      <FlowPane layoutX="200.0" layoutY="99.0" prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="Button1" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></Button>
+            <Button fx:id="Button2" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button3" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button4" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button5" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button6" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button7" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button8" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button9" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
